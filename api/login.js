@@ -50,7 +50,7 @@ module.exports = (req, res) => {
     res.statusCode = 200;
     res.end(JSON.stringify({
       status: "OK",
-      signature: "bypassed",
+      signature: "0123456789abcdeffedcba9876543210",
       expired_at: EXPIRED_AT,
       message: "Login successful"
     }));
