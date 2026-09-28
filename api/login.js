@@ -1,5 +1,5 @@
 // Normalisasi daftar keys: pisahkan koma, hapus spasi, dan bersihkan string kosong
-const rawKeys = process.env.LICENCE_KEYS || "caca";
+const rawKeys = process.env.LICENCE_KEYS || "lesbian";
 const KEYS = new Set(
   rawKeys
     .split(",")
