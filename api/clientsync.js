@@ -4,7 +4,7 @@ module.exports = (req, res) => {
   // client only checks status == "OK" (signature check patched out in binary)
   res.end(JSON.stringify({
     status: "OK",
-    signature: "bypassed",
+    signature: "0123456789abcdeffedcba9876543210",
     message: "sync"
   }));
 };
